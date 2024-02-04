@@ -63,5 +63,5 @@ Recomened for "production like" testing.
 ## Docker
 
 For local Docker testing, run this by the CLI.
-docker build . --tag pat-ui
-docker run --name pat-ui -d -p 80:80 pat-ui
+docker build . --tag ui
+docker run --name ui -d -p 80:80 ui

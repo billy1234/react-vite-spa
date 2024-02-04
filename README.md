@@ -1,6 +1,17 @@
 # React/Vite template
 
-A simple template for getting started with react/vite
+A simple template for getting started with react/vite.
+
+The purpouse of this project is a simple template to get started with modern ESM
+React SPA applications.
+
+Features:
+
+* One build system (Both unit tests and the production build use Vite).
+* autolinting on commit
+* unit test framework
+* E2E test framework
+* Example docker image to serve static files
 
 # Getting Started
 

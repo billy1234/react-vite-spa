@@ -9,7 +9,7 @@
     "test": "vitest run",
     "test:E2E": "cypress run",
     "build": "tsc && vite build",
-    "build:docker": "docker build . --tag pat-ui",
+    "build:docker": "docker build . --tag ui",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },

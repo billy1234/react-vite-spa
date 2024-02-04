@@ -65,3 +65,15 @@ Recomened for "production like" testing.
 For local Docker testing, run this by the CLI.
 docker build . --tag ui
 docker run --name ui -d -p 80:80 ui
+
+# Testing
+
+## Unit tests
+This project uses vitest (a similar api to JEST with a modern build system).
+
+It currently lacks a mocking libary as vitest can mock your service layer 
+(assmuning your application has isolated it). If needed msw would be a good fit here.
+
+## E2E tests
+This project uses cypress to 
+

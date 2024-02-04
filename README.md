@@ -75,5 +75,7 @@ It currently lacks a mocking libary as vitest can mock your service layer
 (assmuning your application has isolated it). If needed msw would be a good fit here.
 
 ## E2E tests
-This project uses cypress to 
+This project uses cypress to do E2E testing.
+These tests should be ran after a deploy to dev 
+(or a staging environment if you wish to never deploy code that fails E2E tests).
 

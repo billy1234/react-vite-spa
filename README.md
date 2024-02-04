@@ -54,7 +54,7 @@ This is required to pass before creating a pull request.
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## `npm run docker-build`
+## `npm run docker:build`
 
 Must be ran after `npm run build`
 Will take the `build/` folder and add it to the nginx docker image.
